@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Gerador de Metatags OpenGraph</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/screen.css" media="screen" title="no title" charset="utf-8">
+    <meta property='og:title' content='Gerador de MetaTags OpenGraph'>
+    <meta property='og:site_name' content='Ferramenta Online Para a criação de metatags OpenGraph'>
+    <meta property='og:url' content='http://guilhermesantos.info/gerador/'>
+    <meta property='og:description' content='Site para geração de metatags Opengraph'>
+    <meta property='og:image' content='http://guilhermesantos.info/img/print-gerador.png'>
+    <meta property='og:image:type' content='png'>
+    <meta property='og:image:width' content='500'>
+    <meta property='og:image:height' content='500'>
+    <meta property='og:type' content='website'>
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <img src="img/logo1.png" alt="Logo Gerador de Metatags OpenGraph" /><br>
+        <span>Gerador de Metatags OpenGraph</span>
+      </div>
+    </header>
+    <main>
+      <div id="gerador">
+        <div id="form">
+          <form class="gerar-metatag">
+            <div class="input-group">
+              <div class="label">
+                <label for="title">Título</label>
+              </div>
+              <div class="input">
+                <input type="title" name="title" id="input_title">
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="label">
+                <label for="site_name">Nome do Site</label>
+              </div>
+              <div class="input">
+                <input type="text" name="site_name" id="input_site_name">
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="label">
+                <label for="url">URL</label>
+              </div>
+              <div class="input">
+                <input type="text" name="url" placeholder="http://meusite.com/" id="input_url">
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="label">
+                <label for="description">Descrição</label>
+              </div>
+              <div class="input">
+                <textarea name="description" id="input_description"></textarea>
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="label">
+                <label for="image">Imagem</label>
+              </div>
+              <div class="input">
+                <input type="text" name="image" placeholder="http://meusite.com/img/imagem-facebook.png" id="input_image">
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="label">
+                <label for="image-type">Tipo de Imagem</label>
+              </div>
+              <div class="input">
+                <select name="image-type" id="input_image_type">
+                  <option value="jpeg">jpeg</option>
+                  <option value="png">png</option>
+                </select>
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="label">
+                <label for="image-width">Tamanho da Imagem</label>
+              </div>
+              <div class="input">
+                <input type="text" name="image-width" placeholder="px" id="input_image_width">
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="label">
+                <label for="image-height">Altura da Imagem</label>
+              </div>
+              <div class="input">
+                <input type="text" name="image-height" placeholder="px" id="input_image_height">
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="label">
+                <label for="type">Tipo de Site</label>
+              </div>
+              <div class="input">
+                <select name="type-site" id="input_type_site">
+                  <option value="article">Artigo</option>
+                  <option value="website">Website</option>
+                  <option value="book">Livro</option>
+                  <option value="business">Negócios</option>
+                  <option value="fitness.course">Academia</option>
+                  <option value="music.album">Albúm de Músicas</option>
+                  <option value="music.radio_station">Rádio Online</option>
+                  <option value="music.song">Músicas</option>
+                  <option value="place">Local</option>
+                  <option value="product">Produto</option>
+                  <option value="product.group">Grupo de Produtos</option>
+                  <option value="profile">Perfil</option>
+                  <option value="quick_election.election">Eleição</option>
+                  <option value="restaurant">Restaurante</option>
+                  <option value="video.episode">Séries</option>
+                  <option value="video.movie">Filmes</option>
+                  <option value="video.tv_show">TV</option>
+                </select>
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="label">
+              </div>
+              <div class="input">
+              </div>
+            </div>
+            <input type="submit" value="Gerar">
+          </form>
+        </div>
+        <div id="codigo">
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>
+        Desenvovido por <a href="http://guilhermesantos.info">Guilherme Santos</a>
+      </p>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/gerador.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-76763119-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>

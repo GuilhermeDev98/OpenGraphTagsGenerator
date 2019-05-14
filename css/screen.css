@@ -1,0 +1,191 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url(http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext);
+/* line 5, ../../../../lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 9, ../sass/screen.sass */
+* {
+  font-family: lato;
+  box-sizing: border-box;
+}
+
+/* line 13, ../sass/screen.sass */
+header {
+  width: 100%;
+  background: #87A894;
+  padding: 1% 0 5% 0;
+}
+/* line 17, ../sass/screen.sass */
+header #logo {
+  text-align: center;
+}
+/* line 19, ../sass/screen.sass */
+header #logo span {
+  font-family: lato;
+  font-size: 1.4em;
+  color: #E3D4CB;
+}
+
+/* line 23, ../sass/screen.sass */
+main {
+  margin: -3% auto 0 auto;
+  width: 90%;
+  background: #BBAC9F;
+  padding: 2%;
+  border: 2px solid #E3D4CB;
+  border-radius: 3px;
+}
+/* line 30, ../sass/screen.sass */
+main #gerador {
+  text-align: center;
+}
+/* line 32, ../sass/screen.sass */
+main #gerador #form {
+  vertical-align: top;
+  width: 45%;
+  display: inline-block;
+  padding: 1%;
+  background: #E3D4CB;
+  border: 0;
+  border-radius: 5px;
+}
+/* line 41, ../sass/screen.sass */
+main #gerador #form form .input-group {
+  display: block;
+  margin: 1% 0;
+}
+/* line 44, ../sass/screen.sass */
+main #gerador #form form .input-group .label {
+  width: 35%;
+  display: inline-block;
+  text-align: start;
+  font-size: 1.1em;
+  vertical-align: middle;
+}
+/* line 50, ../sass/screen.sass */
+main #gerador #form form .input-group .input {
+  display: inline-block;
+  width: 60%;
+  text-align: end;
+  vertical-align: middle;
+}
+/* line 55, ../sass/screen.sass */
+main #gerador #form form .input-group .input input, main #gerador #form form .input-group .input textarea, main #gerador #form form .input-group .input select {
+  width: 100%;
+  height: 25px;
+  border: 1px solid #87A894;
+  border-radius: 5px;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: #87A894;
+}
+/* line 63, ../sass/screen.sass */
+main #gerador #form form .input-group .input textarea {
+  height: 60px !important;
+}
+/* line 65, ../sass/screen.sass */
+main #gerador #form form input[type="submit"] {
+  width: 100%;
+  height: 25px;
+  border: 1px solid #87A894;
+  border-radius: 5px;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: #87A894;
+}
+/* line 73, ../sass/screen.sass */
+main #gerador #codigo {
+  width: 45%;
+  display: inline-block;
+}
+/* line 76, ../sass/screen.sass */
+main #gerador #codigo textarea {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #87A894;
+  border-radius: 5px;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: #87A894;
+}
+
+/* line 84, ../sass/screen.sass */
+footer {
+  margin: 2% 0;
+  font-family: lato;
+}
+/* line 87, ../sass/screen.sass */
+footer p {
+  text-align: center;
+}
+/* line 89, ../sass/screen.sass */
+footer p a {
+  font-size: 1.1em;
+  color: #87A894;
+  text-decoration: none;
+}
